@@ -1,11 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"dd/d1c/classhash__chain.html#ae9ddce410015ed8dda6380130d82d6c2":[7,0,19,6],
-"dd/d24/namespacedynamic__programming.html":[6,0,6],
-"dd/d29/false__position_8cpp.html":[8,0,10,3],
-"dd/d29/false__position_8cpp.html#a002b2f4894492820fe708b1b7e7c5e70":[8,0,10,3,0],
-"dd/d29/false__position_8cpp.html#a0a3abbca80bc98e7abcb3ae73abe0f14":[8,0,10,3,1],
-"dd/d29/false__position_8cpp.html#a1ab31b90bc584c635ec159468ceed9b2":[8,0,10,3,4],
 "dd/d29/false__position_8cpp.html#a2003b5b2dcfff0769b957ab5c968b03d":[8,0,10,3,2],
 "dd/d29/false__position_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,10,3,3],
 "dd/d2f/class_trie.html":[7,0,39],
@@ -249,5 +243,11 @@ var NAVTREEINDEX5 =
 "globals_func_p.html":[8,1,1,15],
 "globals_func_q.html":[8,1,1,16],
 "globals_func_r.html":[8,1,1,17],
-"globals_func_s.html":[8,1,1,18]
+"globals_func_s.html":[8,1,1,18],
+"globals_func_t.html":[8,1,1,19],
+"globals_func_u.html":[8,1,1,20],
+"globals_g.html":[8,1,0,7],
+"globals_h.html":[8,1,0,8],
+"globals_i.html":[8,1,0,9],
+"globals_j.html":[8,1,0,10]
 };

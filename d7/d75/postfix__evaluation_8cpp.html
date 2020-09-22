@@ -185,7 +185,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>stackTop</b></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 <div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> c = 0;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">float</span> c = 0;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">switch</span> (operation) {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            c = a + b;</div>
@@ -422,10 +422,10 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Test function 2 with input array {'1', '2', '+', '2', '/', '5', '*', '7', '+'} </p><dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 <div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                              {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;char, 9&gt;</a> input = {<span class="charliteral">&#39;1&#39;</span>, <span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;+&#39;</span>, <span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;/&#39;</span>, <span class="charliteral">&#39;5&#39;</span>, <span class="charliteral">&#39;*&#39;</span>, <span class="charliteral">&#39;7&#39;</span>, <span class="charliteral">&#39;+&#39;</span>};</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;char, 9&gt;</a> input = {<span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;+&#39;</span>, <span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;/&#39;</span>, <span class="charliteral">&#39;5&#39;</span>, <span class="charliteral">&#39;*&#39;</span>, <span class="charliteral">&#39;7&#39;</span>, <span class="charliteral">&#39;+&#39;</span>};</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a65a4de6d9b1bd956615bc7224c994c64">postfix_evaluation</a>(input);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    assert(answer == 6);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    assert(answer == 11);</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
