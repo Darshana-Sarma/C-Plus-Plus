@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('d7/d75/postfix__evaluation_8cpp.html',
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">postfix_evaluation.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -112,44 +112,45 @@ Include dependency graph for postfix_evaluation.cpp:</div>
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d14/class_stack.html">Stack</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0f8b136f26e2bf893001f9906f05bea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a> (float operand)</td></tr>
-<tr class="separator:a0f8b136f26e2bf893001f9906f05bea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc419ab689e56ec5f75e1fddf99d233f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#adc419ab689e56ec5f75e1fddf99d233f">pop</a> ()</td></tr>
-<tr class="separator:adc419ab689e56ec5f75e1fddf99d233f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f60980d9591f95d82e8993ddcebb099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a> (float operand, <a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;<a class="el" href="../../d1/dc2/classstack.html">stack</a>)</td></tr>
+<tr class="memdesc:a1f60980d9591f95d82e8993ddcebb099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushing operand, also called the number in the array to the stack.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">More...</a><br /></td></tr>
+<tr class="separator:a1f60980d9591f95d82e8993ddcebb099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab882916900323d4bbfd0dc0e0329bc9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a">pop</a> (<a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;<a class="el" href="../../d1/dc2/classstack.html">stack</a>)</td></tr>
+<tr class="memdesc:ab882916900323d4bbfd0dc0e0329bc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popping operand, also called the number from the stack.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a">More...</a><br /></td></tr>
+<tr class="separator:ab882916900323d4bbfd0dc0e0329bc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53d02df1713071578c4b6a030269739b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">is_number</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;s)</td></tr>
+<tr class="memdesc:a53d02df1713071578c4b6a030269739b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if scanned string is a number.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">More...</a><br /></td></tr>
 <tr class="separator:a53d02df1713071578c4b6a030269739b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09dd5a21e59e2abedfce7003464838bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a09dd5a21e59e2abedfce7003464838bd">evaluate</a> (float a, float b, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;operation)</td></tr>
-<tr class="separator:a09dd5a21e59e2abedfce7003464838bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab779502b0884924c2ee4d7ab78b54c19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#ab779502b0884924c2ee4d7ab78b54c19">evaluate</a> (float a, float b, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;operation, <a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;<a class="el" href="../../d1/dc2/classstack.html">stack</a>)</td></tr>
+<tr class="memdesc:ab779502b0884924c2ee4d7ab78b54c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate answer using given operands and operation.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#ab779502b0884924c2ee4d7ab78b54c19">More...</a><br /></td></tr>
+<tr class="separator:ab779502b0884924c2ee4d7ab78b54c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56661e198bb5bf8586de229ada6e260d"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
 <tr class="memitem:a56661e198bb5bf8586de229ada6e260d"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>, N &gt; input)</td></tr>
+<tr class="memdesc:a56661e198bb5bf8586de229ada6e260d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postfix Evaluation algorithm to compute the value from given input array.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">More...</a><br /></td></tr>
 <tr class="separator:a56661e198bb5bf8586de229ada6e260d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a8eeb7d346d5cd6335d9780fb7c0f15"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a> ()</td></tr>
+<tr class="memdesc:a6a8eeb7d346d5cd6335d9780fb7c0f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test function 1 with input array {'2', '3', '1', '*', '+', '9', '-'}.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">More...</a><br /></td></tr>
 <tr class="separator:a6a8eeb7d346d5cd6335d9780fb7c0f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b97d12e8b61484f756a8721992bfae1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">test_function_2</a> ()</td></tr>
+<tr class="memdesc:a5b97d12e8b61484f756a8721992bfae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test function 2 with input array {'1', '2', '+', '2', '/', '5', '*', '7', '+'}.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">More...</a><br /></td></tr>
 <tr class="separator:a5b97d12e8b61484f756a8721992bfae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a755a370812a5c314712719ca48af8261"><td class="memItemLeft" align="right" valign="top"><a id="a755a370812a5c314712719ca48af8261"></a>
-const int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_SIZE</b> = 20</td></tr>
-<tr class="separator:a755a370812a5c314712719ca48af8261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a176b78f2d4154185f3c5a4a46cc24b"><td class="memItemLeft" align="right" valign="top"><a id="a4a176b78f2d4154185f3c5a4a46cc24b"></a>
-<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; float, MAX_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stack</b></td></tr>
-<tr class="separator:a4a176b78f2d4154185f3c5a4a46cc24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d2e8918f1d4fde37a1e34b5ab24765d"><td class="memItemLeft" align="right" valign="top"><a id="a4d2e8918f1d4fde37a1e34b5ab24765d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>stackTop</b></td></tr>
-<tr class="separator:a4d2e8918f1d4fde37a1e34b5ab24765d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Evaluation of Postfix Expression. </p>
 <dl class="section author"><dt>Author</dt><dd><a href="https://github.com/Darshana-Sarma">Darshana Sarma</a>  Create a stack to store operands (or values). Scan the given expression and do following for every scanned element. If the element is a number, push it into the stack If the element is a operator, pop operands for the operator from stack. Evaluate the operator and push the result back to the stack When the expression is ended, the number in the stack is the final answer </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a09dd5a21e59e2abedfce7003464838bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09dd5a21e59e2abedfce7003464838bd">&#9670;&nbsp;</a></span>evaluate()</h2>
+<a id="ab779502b0884924c2ee4d7ab78b54c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab779502b0884924c2ee4d7ab78b54c19">&#9670;&nbsp;</a></span>evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +171,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>stackTop</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>operation</em>&#160;</td>
+          <td class="paramname"><em>operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;&#160;</td>
+          <td class="paramname"><em>stack</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,37 +186,40 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>stackTop</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Evaluate answer using given operands and operation </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Evaluate answer using given operands and operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">a</td><td>float </td></tr>
     <tr><td class="paramname">b</td><td>float </td></tr>
     <tr><td class="paramname">operation</td><td>operation to be performed with respective floats </td></tr>
+    <tr><td class="paramname">stack</td><td>stack containing numbers </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                            {</div>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                                          {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">float</span> c = 0;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *op = operation.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">c_str</a>();</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">switch</span> (*op) {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            c = a + b;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a>(c);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;-&#39;</span>:</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            c = a - b;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a>(c);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;*&#39;</span>:</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            c = a * b;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a>(c);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;/&#39;</span>:</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            c = a / b;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a>(c);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">default</span>:</div>
@@ -220,7 +230,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>stackTop</b></td></tr>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a09dd5a21e59e2abedfce7003464838bd_cgraph.svg" width="247" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_ab779502b0884924c2ee4d7ab78b54c19_cgraph.svg" width="390" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -241,16 +251,18 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Checks if scanned string is a number </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Checks if scanned string is a number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">s</td><td>scanned string </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool boolean value if string is number </dd></dl>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                   {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> !s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/empty.html">empty</a>() &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::all_of</a>(s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">begin</a>(), s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">end</a>(), ::isdigit);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                   {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> !s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/empty.html">empty</a>() &amp;&amp; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::all_of</a>(s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">begin</a>(), s.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">end</a>(), ::isdigit);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -275,24 +287,26 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;           {</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a>();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">test_function_2</a>();</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
+
+<p>Main function. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;           {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a>();</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">test_function_2</a>();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="395" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="adc419ab689e56ec5f75e1fddf99d233f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc419ab689e56ec5f75e1fddf99d233f">&#9670;&nbsp;</a></span>pop()</h2>
+<a id="ab882916900323d4bbfd0dc0e0329bc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab882916900323d4bbfd0dc0e0329bc9a">&#9670;&nbsp;</a></span>pop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,24 +314,33 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">float pop </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;&#160;</td>
+          <td class="paramname"><em>stack</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Popping operand, also called the number from the stack </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Popping operand, also called the number from the stack. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
+    <tr><td class="paramname">stack</td><td>stack containing numbers </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>operand float on top of stack </dd></dl>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">float</span> operand = <a class="code" href="../../d1/dc2/classstack.html">stack</a>[stackTop];</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    stackTop--;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> operand;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
-</div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">float</span> operand = <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack</a>[<a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>--;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> operand;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_ab882916900323d4bbfd0dc0e0329bc9a_cgraph.svg" width="196" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="a56661e198bb5bf8586de229ada6e260d"></a>
@@ -337,7 +360,9 @@ template&lt;std::size_t N&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Postfix Evaluation algorithm to compute the value from given input array </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Postfix Evaluation algorithm to compute the value from given input array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>Array of characters consisting of numbers and operations </td></tr>
     <tr><td class="paramname">N</td><td>Array size </td></tr>
@@ -345,33 +370,39 @@ template&lt;std::size_t N&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>stack[stackTop] returns the top value from the stack </dd></dl>
-<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                       {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    stackTop = -1;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> j = 0;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">while</span> (j &lt; N) {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> scan = input[j];</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">is_number</a>(scan)) {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stof</a>(scan));</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordtype">float</span> op2 = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#adc419ab689e56ec5f75e1fddf99d233f">pop</a>();</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordtype">float</span> op1 = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#adc419ab689e56ec5f75e1fddf99d233f">pop</a>();</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a09dd5a21e59e2abedfce7003464838bd">evaluate</a>(op1, op2, scan);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        j++;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code" href="../../d1/dc2/classstack.html">stack</a>[stackTop] &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dc2/classstack.html">stack</a>[stackTop];</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
-</div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                                       {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d0/d14/class_stack.html">Stack</a> <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aa37d24a036d239b3b528f13b9de880c7">stack</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> j = 0;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">while</span> (j &lt; N) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> scan = input[j];</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">is_number</a>(scan)) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stof</a>(scan), <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordtype">float</span> op2 = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a">pop</a>(<a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordtype">float</span> op1 = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a">pop</a>(<a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ab779502b0884924c2ee4d7ab78b54c19">evaluate</a>(op1, op2, scan, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        j++;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack</a>[<a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>] &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack</a>[<a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>];</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a56661e198bb5bf8586de229ada6e260d_cgraph.svg" width="583" height="375"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<a id="a0f8b136f26e2bf893001f9906f05bea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f8b136f26e2bf893001f9906f05bea0">&#9670;&nbsp;</a></span>push()</h2>
+
+</div>
+</div>
+<a id="a1f60980d9591f95d82e8993ddcebb099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f60980d9591f95d82e8993ddcebb099">&#9670;&nbsp;</a></span>push()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,23 +411,42 @@ template&lt;std::size_t N&gt; </div>
           <td class="memname">void push </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>operand</em></td><td>)</td>
+          <td class="paramname"><em>operand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d14/class_stack.html">Stack</a> &amp;&#160;</td>
+          <td class="paramname"><em>stack</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Pushing operand, also called the number in the array to the stack </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Pushing operand, also called the number in the array to the stack. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">operand</td><td>float value from the input array or evaluation </td></tr>
+    <tr><td class="paramname">stack</td><td>stack containing numbers </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                         {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    stackTop++;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d1/dc2/classstack.html">stack</a>[stackTop] = operand;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-</div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                       {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>++;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack</a>[<a class="code" href="../../d1/dc2/classstack.html">stack</a>.<a class="code" href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stackTop</a>] = operand;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a1f60980d9591f95d82e8993ddcebb099_cgraph.svg" width="204" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="a6a8eeb7d346d5cd6335d9780fb7c0f15"></a>
@@ -421,18 +471,20 @@ template&lt;std::size_t N&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Test function 1 with input array {'2', '3', '1', '*', '+', '9', '-'} </p><dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                              {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 7&gt;</a> input = {<span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;3&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>, <span class="stringliteral">&quot;*&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;9&quot;</span>, <span class="stringliteral">&quot;-&quot;</span>};</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a>(input);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    assert(answer == -4);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+
+<p>Test function 1 with input array {'2', '3', '1', '*', '+', '9', '-'}. </p>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                              {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 7&gt;</a> input = {<span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;3&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>, <span class="stringliteral">&quot;*&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;9&quot;</span>, <span class="stringliteral">&quot;-&quot;</span>};</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a>(input);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    assert(answer == -4);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a6a8eeb7d346d5cd6335d9780fb7c0f15_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a6a8eeb7d346d5cd6335d9780fb7c0f15_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -460,18 +512,20 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Test function 2 with input array {'1', '2', '+', '2', '/', '5', '*', '7', '+'} </p><dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                              {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 9&gt;</a> input = {<span class="stringliteral">&quot;100&quot;</span>, <span class="stringliteral">&quot;200&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;/&quot;</span>,</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                        <span class="stringliteral">&quot;5&quot;</span>,   <span class="stringliteral">&quot;*&quot;</span>,   <span class="stringliteral">&quot;7&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>};</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a>(input);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    assert(answer == 757);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;}</div>
+
+<p>Test function 2 with input array {'1', '2', '+', '2', '/', '5', '*', '7', '+'}. </p>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                              {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 9&gt;</a> input = {<span class="stringliteral">&quot;100&quot;</span>, <span class="stringliteral">&quot;200&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;/&quot;</span>,</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                        <span class="stringliteral">&quot;5&quot;</span>,   <span class="stringliteral">&quot;*&quot;</span>,   <span class="stringliteral">&quot;7&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>};</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a>(input);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    assert(answer == 757);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a5b97d12e8b61484f756a8721992bfae1_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d75/postfix__evaluation_8cpp_a5b97d12e8b61484f756a8721992bfae1_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -480,22 +534,26 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="abasic_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></div><div class="ttdoc">STL class.</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a09dd5a21e59e2abedfce7003464838bd"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a09dd5a21e59e2abedfce7003464838bd">evaluate</a></div><div class="ttdeci">void evaluate(float a, float b, const std::string &amp;operation)</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:64</div></div>
+<div class="ttc" id="aclass_stack_html"><div class="ttname"><a href="../../d0/d14/class_stack.html">Stack</a></div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:19</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a1f60980d9591f95d82e8993ddcebb099"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099">push</a></div><div class="ttdeci">void push(float operand, Stack &amp;stack)</div><div class="ttdoc">Pushing operand, also called the number in the array to the stack.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:31</div></div>
 <div class="ttc" id="aall_any_none_of_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::all_of</a></div><div class="ttdeci">T all_of(T... args)</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a5b97d12e8b61484f756a8721992bfae1"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">test_function_2</a></div><div class="ttdeci">static void test_function_2()</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:142</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a5b97d12e8b61484f756a8721992bfae1"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1">test_function_2</a></div><div class="ttdeci">static void test_function_2()</div><div class="ttdoc">Test function 2 with input array {'1', '2', '+', '2', '/', '5', '*', '7', '+'}.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:143</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="ac_str_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">std::string::c_str</a></div><div class="ttdeci">T c_str(T... args)</div></div>
 <div class="ttc" id="aarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a></div><div class="ttdoc">STL class.</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a0f8b136f26e2bf893001f9906f05bea0"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a0f8b136f26e2bf893001f9906f05bea0">push</a></div><div class="ttdeci">void push(float operand)</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:32</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a6a8eeb7d346d5cd6335d9780fb7c0f15"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a></div><div class="ttdeci">static void test_function_1()</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:129</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a53d02df1713071578c4b6a030269739b"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">is_number</a></div><div class="ttdeci">bool is_number(const std::string &amp;s)</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:53</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a6a8eeb7d346d5cd6335d9780fb7c0f15"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a></div><div class="ttdeci">static void test_function_1()</div><div class="ttdoc">Test function 1 with input array {'2', '3', '1', '*', '+', '9', '-'}.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:130</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a53d02df1713071578c4b6a030269739b"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b">is_number</a></div><div class="ttdeci">bool is_number(const std::string &amp;s)</div><div class="ttdoc">Checks if scanned string is a number.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:52</div></div>
 <div class="ttc" id="astof_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stof</a></div><div class="ttdeci">T stof(T... args)</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a56661e198bb5bf8586de229ada6e260d"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a></div><div class="ttdeci">float postfix_evaluation(std::array&lt; std::string, N &gt; input)</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:101</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_adc419ab689e56ec5f75e1fddf99d233f"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#adc419ab689e56ec5f75e1fddf99d233f">pop</a></div><div class="ttdeci">float pop()</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:42</div></div>
+<div class="ttc" id="aclassstack_html_a5b64337ec34b12e98458bb9b9d5f8f83"><div class="ttname"><a href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack::stack</a></div><div class="ttdeci">stack()</div><div class="ttdef"><b>Definition:</b> stack.h:41</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a56661e198bb5bf8586de229ada6e260d"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d">postfix_evaluation</a></div><div class="ttdeci">float postfix_evaluation(std::array&lt; std::string, N &gt; input)</div><div class="ttdoc">Postfix Evaluation algorithm to compute the value from given input array.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:102</div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">std::string::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>
 <div class="ttc" id="aclassstack_html"><div class="ttname"><a href="../../d1/dc2/classstack.html">stack</a></div><div class="ttdef"><b>Definition:</b> stack.h:26</div></div>
 <div class="ttc" id="aempty_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/empty.html">std::string::empty</a></div><div class="ttdeci">T empty(T... args)</div></div>
+<div class="ttc" id="aclassstack_html_a7289037c059aaad492b4d68e6bd54453"><div class="ttname"><a href="../../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453">stack::stackTop</a></div><div class="ttdeci">node&lt; Type &gt; * stackTop</div><div class="ttdef"><b>Definition:</b> stack.h:146</div></div>
 <div class="ttc" id="aend_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">std::string::end</a></div><div class="ttdeci">T end(T... args)</div></div>
+<div class="ttc" id="aparanthesis__matching_8cpp_html_aa37d24a036d239b3b528f13b9de880c7"><div class="ttname"><a href="../../dc/dc5/paranthesis__matching_8cpp.html#aa37d24a036d239b3b528f13b9de880c7">stack</a></div><div class="ttdeci">char stack[MAX]</div><div class="ttdef"><b>Definition:</b> paranthesis_matching.cpp:20</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_ab882916900323d4bbfd0dc0e0329bc9a"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a">pop</a></div><div class="ttdeci">float pop(Stack &amp;stack)</div><div class="ttdoc">Popping operand, also called the number from the stack.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:41</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_ab779502b0884924c2ee4d7ab78b54c19"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#ab779502b0884924c2ee4d7ab78b54c19">evaluate</a></div><div class="ttdeci">void evaluate(float a, float b, const std::string &amp;operation, Stack &amp;stack)</div><div class="ttdoc">Evaluate answer using given operands and operation.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:64</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

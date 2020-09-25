@@ -1,6 +1,17 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" id="node2" href="$d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15" title=" " alt="" coords="104,5,215,32"/>
-<area shape="rect" id="node4" href="$d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1" title=" " alt="" coords="104,56,215,83"/>
-<area shape="rect" id="node3" href="$d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d" title=" " alt="" coords="263,31,389,57"/>
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,157,56,184"/>
+<area shape="rect" id="node2" href="$d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15" title="Test function 1 with input array {&#39;2&#39;, &#39;3&#39;, &#39;1&#39;, &#39;*&#39;, &#39;+&#39;, &#39;9&#39;, &#39;&#45;&#39;}." alt="" coords="104,132,215,159"/>
+<area shape="rect" id="node15" href="$d7/d75/postfix__evaluation_8cpp.html#a5b97d12e8b61484f756a8721992bfae1" title="Test function 2 with input array {&#39;1&#39;, &#39;2&#39;, &#39;+&#39;, &#39;2&#39;, &#39;/&#39;, &#39;5&#39;, &#39;*&#39;, &#39;7&#39;, &#39;+&#39;}." alt="" coords="104,183,215,209"/>
+<area shape="rect" id="node3" href="$d7/d75/postfix__evaluation_8cpp.html#a56661e198bb5bf8586de229ada6e260d" title="Postfix Evaluation algorithm to compute the value from given input array." alt="" coords="263,157,389,184"/>
+<area shape="rect" id="node4" href="$d7/d75/postfix__evaluation_8cpp.html#ab779502b0884924c2ee4d7ab78b54c19" title="Evaluate answer using given operands and operation." alt="" coords="443,5,514,32"/>
+<area shape="rect" id="node6" href="$d7/d75/postfix__evaluation_8cpp.html#a1f60980d9591f95d82e8993ddcebb099" title="Pushing operand, also called the number in the array to the stack." alt="" coords="605,56,655,83"/>
+<area shape="rect" id="node7" href="$d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83" title=" " alt="" coords="740,107,835,133"/>
+<area shape="rect" id="node8" href="$d7/d75/postfix__evaluation_8cpp.html#a53d02df1713071578c4b6a030269739b" title="Checks if scanned string is a number." alt="" coords="437,183,520,209"/>
+<area shape="rect" id="node13" href="$d7/d75/postfix__evaluation_8cpp.html#ab882916900323d4bbfd0dc0e0329bc9a" title="Popping operand, also called the number from the stack." alt="" coords="457,233,500,260"/>
+<area shape="rect" id="node14" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/stof.html#" title=" " alt="" coords="443,284,514,311"/>
+<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/c_str.html#" title=" " alt="" coords="571,5,689,32"/>
+<area shape="rect" id="node9" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/algorithm/all_any_none_of.html#" title=" " alt="" coords="591,157,669,184"/>
+<area shape="rect" id="node10" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/begin.html#" title=" " alt="" coords="571,208,689,235"/>
+<area shape="rect" id="node11" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/empty.html#" title=" " alt="" coords="568,259,692,285"/>
+<area shape="rect" id="node12" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/end.html#" title=" " alt="" coords="575,309,685,336"/>
 </map>
