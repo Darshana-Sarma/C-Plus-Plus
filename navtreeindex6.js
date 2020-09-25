@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"globals_func_s.html":[8,1,1,18],
 "globals_func_t.html":[8,1,1,19],
 "globals_func_u.html":[8,1,1,20],
 "globals_g.html":[8,1,0,7],
@@ -19,8 +20,8 @@ var NAVTREEINDEX6 =
 "globals_u.html":[8,1,0,20],
 "globals_vars.html":[8,1,2],
 "hierarchy.html":[7,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#autotoc_md44":[0,0],
 "index.html#autotoc_md45":[0,1],
 "index.html#autotoc_md46":[0,2],
