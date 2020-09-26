@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['util_5ffunctions_2738',['util_functions',['../d3/d17/namespaceutil__functions.html',1,'']]]
+  ['range_5fqueries_2728',['range_queries',['../dd/d69/namespacerange__queries.html',1,'']]]
 ];

@@ -48,7 +48,7 @@ var hierarchy =
     ] ],
     [ "data_structures::SkipList", "d4/d90/classdata__structures_1_1_skip_list.html", null ],
     [ "Solution", "dd/d4f/class_solution.html", null ],
-    [ "Stack", "d0/d14/class_stack.html", null ],
+    [ "others::postfix_expression::Stack", "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html", null ],
     [ "stack< Type >", "d1/dc2/classstack.html", null ],
     [ "stack_linkedList", "d2/dc4/classstack__linked_list.html", null ],
     [ "statistics::stats_computer1< T >", "d7/d7c/classstatistics_1_1stats__computer1.html", null ],
