@@ -215,22 +215,22 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">switch</span> (*op) {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            c = a + b;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;-&#39;</span>:</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            c = a - b;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;*&#39;</span>:</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            c = a * b;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;/&#39;</span>:</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            c = a / b;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">default</span>:</div>
@@ -494,7 +494,7 @@ Here is the call graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                              {</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 7&gt;</a> input = {<span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;3&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>, <span class="stringliteral">&quot;*&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;9&quot;</span>, <span class="stringliteral">&quot;-&quot;</span>};</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">postfix_evaluation</a>(input);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">others::postfix_expression::postfix_evaluation</a>(input);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    assert(answer == -4);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
@@ -529,7 +529,7 @@ Here is the call graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                              {</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;std::string, 9&gt;</a> input = {<span class="stringliteral">&quot;100&quot;</span>, <span class="stringliteral">&quot;200&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>, <span class="stringliteral">&quot;2&quot;</span>, <span class="stringliteral">&quot;/&quot;</span>,</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                        <span class="stringliteral">&quot;5&quot;</span>,   <span class="stringliteral">&quot;*&quot;</span>,   <span class="stringliteral">&quot;7&quot;</span>, <span class="stringliteral">&quot;+&quot;</span>};</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">postfix_evaluation</a>(input);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordtype">float</span> answer = <a class="code" href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">others::postfix_expression::postfix_evaluation</a>(input);</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    assert(answer == 757);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
