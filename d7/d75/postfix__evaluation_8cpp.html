@@ -140,7 +140,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4c27f949c9d6659be9f5bd2ccbe1360a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if scanned string is a number.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a4c27f949c9d6659be9f5bd2ccbe1360a">More...</a><br /></td></tr>
 <tr class="separator:a4c27f949c9d6659be9f5bd2ccbe1360a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59fd597e0ea394abe027ced4d2ea3338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338">others::postfix_expression::evaluate</a> (float a, float b, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;operation, Stack *<a class="el" href="../../d1/dc2/classstack.html">stack</a>)</td></tr>
-<tr class="memdesc:a59fd597e0ea394abe027ced4d2ea3338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate answer using given operands and operation.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338">More...</a><br /></td></tr>
+<tr class="memdesc:a59fd597e0ea394abe027ced4d2ea3338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate answer using given last two operands from and operation.  <a href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338">More...</a><br /></td></tr>
 <tr class="separator:a59fd597e0ea394abe027ced4d2ea3338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38bd3a177a6d61da3859a281233bbe1"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
 <tr class="memitem:ae38bd3a177a6d61da3859a281233bbe1"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">others::postfix_expression::postfix_evaluation</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>, N &gt; input)</td></tr>
@@ -198,11 +198,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Evaluate answer using given operands and operation. </p>
+<p>Evaluate answer using given last two operands from and operation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>float </td></tr>
-    <tr><td class="paramname">b</td><td>float </td></tr>
+    <tr><td class="paramname">a</td><td>float second last added operand which will be used for evaluation </td></tr>
+    <tr><td class="paramname">b</td><td>float last added operand which will be used for evaluation </td></tr>
     <tr><td class="paramname">operation</td><td>operation to be performed with respective floats </td></tr>
     <tr><td class="paramname">stack</td><td>stack containing numbers </td></tr>
   </table>
@@ -214,22 +214,22 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *op = operation.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">c_str</a>();</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">switch</span> (*op) {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            c = a + b;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            c = a + b; <span class="comment">// Addition of numbers</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;-&#39;</span>:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            c = a - b;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            c = a - b; <span class="comment">// Subtraction of numbers</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;*&#39;</span>:</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            c = a * b;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            c = a * b; <span class="comment">// Multiplication of numbers</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;/&#39;</span>:</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            c = a / b;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            c = a / b; <span class="comment">// Division of numbers</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <a class="code" href="../../dc/dc5/paranthesis__matching_8cpp.html#aae41c72130114bf31204cde6873b6095">others::postfix_expression::push</a>(c, <a class="code" href="../../d1/dc2/classstack.html">stack</a>);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
@@ -546,7 +546,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="apostfix__evaluation_8cpp_html_ae38bd3a177a6d61da3859a281233bbe1"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#ae38bd3a177a6d61da3859a281233bbe1">others::postfix_expression::postfix_evaluation</a></div><div class="ttdeci">float postfix_evaluation(std::array&lt; std::string, N &gt; input)</div><div class="ttdoc">Postfix Evaluation algorithm to compute the value from given input array.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:115</div></div>
 <div class="ttc" id="aarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="apostfix__evaluation_8cpp_html_a6a8eeb7d346d5cd6335d9780fb7c0f15"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a6a8eeb7d346d5cd6335d9780fb7c0f15">test_function_1</a></div><div class="ttdeci">static void test_function_1()</div><div class="ttdoc">Test function 1 with input array {'2', '3', '1', '*', '+', '9', '-'}.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:146</div></div>
-<div class="ttc" id="apostfix__evaluation_8cpp_html_a59fd597e0ea394abe027ced4d2ea3338"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338">others::postfix_expression::evaluate</a></div><div class="ttdeci">void evaluate(float a, float b, const std::string &amp;operation, Stack *stack)</div><div class="ttdoc">Evaluate answer using given operands and operation.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:77</div></div>
+<div class="ttc" id="apostfix__evaluation_8cpp_html_a59fd597e0ea394abe027ced4d2ea3338"><div class="ttname"><a href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338">others::postfix_expression::evaluate</a></div><div class="ttdeci">void evaluate(float a, float b, const std::string &amp;operation, Stack *stack)</div><div class="ttdoc">Evaluate answer using given last two operands from and operation.</div><div class="ttdef"><b>Definition:</b> postfix_evaluation.cpp:77</div></div>
 <div class="ttc" id="astof_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stof</a></div><div class="ttdeci">T stof(T... args)</div></div>
 <div class="ttc" id="aclassstack_html_a5b64337ec34b12e98458bb9b9d5f8f83"><div class="ttname"><a href="../../d1/dc2/classstack.html#a5b64337ec34b12e98458bb9b9d5f8f83">stack::stack</a></div><div class="ttdeci">stack()</div><div class="ttdef"><b>Definition:</b> stack.h:41</div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">std::string::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>

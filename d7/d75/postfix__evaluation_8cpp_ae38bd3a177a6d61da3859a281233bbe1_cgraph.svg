@@ -28,7 +28,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338" target="_top" xlink:title="Evaluate answer using given operands and operation.">
+<g id="a_node2"><a xlink:href="../../d7/d75/postfix__evaluation_8cpp.html#a59fd597e0ea394abe027ced4d2ea3338" target="_top" xlink:title="Evaluate answer using given last two operands from and operation.">
 <polygon fill="white" stroke="black" points="167,-221 167,-251 298,-251 298,-221 167,-221"/>
 <text text-anchor="start" x="175" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">others::postfix_expression</text>
 <text text-anchor="middle" x="232.5" y="-228" font-family="Helvetica,sans-Serif" font-size="10.00">::evaluate</text>
